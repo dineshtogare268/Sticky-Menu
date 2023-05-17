@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* margin:  0; */
+    background-color: rgb(1, 37, 89);
+    /* color: white; */
+}
+
+#header {
+text-align: center;
+background-color: black;
+}
+
+#logo{
+    margin-top: 30px;
+    padding: 80px;
+    width: 350px;
+    height: auto;
+}
+
+#menu-bar{
+text-align: center;
+background-color: rgb(117, 240, 236);
+}
+
+#menu-bar li{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#container{
+text-align: center;
+margin-top: 100px;
+}
+
+#container h1{
+    margin: 20px 0;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
